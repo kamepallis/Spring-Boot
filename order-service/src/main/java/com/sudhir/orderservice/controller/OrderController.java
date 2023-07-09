@@ -24,7 +24,7 @@ public class OrderController {
         payment.setStatus("Failed!!");
         Order o = orderRepository.save(order);
         payment.setOrderId(o.getOrderId());
-        restTemplate.postForObject("http://localhost:9002/payment/doPayment", payment, Payment.class);
+        restTemplate.postForObject("http://PAYMENT-SERVICE/payment/doPayment", payment, Payment.class);
         return order;
     }
 
