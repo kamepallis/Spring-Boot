@@ -9,3 +9,5 @@ Java 1.8
 Spring Boot  2.7.14-SNAPSHOT
 
 Maven
+
+Intellij IDE (Community Edition)
