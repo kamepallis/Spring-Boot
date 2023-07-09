@@ -1,0 +1,9 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: PAYMENT-SERVICE
+  h2:
+    console:
+      enabled: true
